@@ -70,10 +70,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH     &kp KP_SLASH    &kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &trans
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COMMA     &kp KP_MINUS    &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp KP_PLUS     &kp F11  &kp F12  &trans  &trans  &trans   &trans
-                                    &trans        &kp NUMBER_0  &trans          &trans   &trans   &trans
+&none  &none       &kp N7        &kp N8        &kp N9        &kp KP_SLASH    &kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &trans
+&none  &kp COMMA   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS    &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans
+&none  &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_PLUS     &kp F11  &kp F12  &trans  &trans  &trans   &trans
+                                 &trans        &kp NUMBER_0  &trans          &trans   &trans   &trans
             >;
         };
 
@@ -85,10 +85,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp ESCAPE  &kp NON_US_BACKSLASH  &kp LS(NUMBER_8)  &kp RA(N7)     &kp RA(N8)    &kp RA(N9)        &kp RA(N0)     &kp LS(N9)             &kp LS(NON_US_BSLH)    &trans         &trans
-&trans  &kp MINUS   &kp LS(N0)            &kp LS(NUMBER_1)  &kp LS(MINUS)  &trans        &kp NON_US_HASH   &kp EQUAL      &kp LS(N2)             &kp LS(RIGHT_BRACKET)  &kp LS(SLASH)  &trans
-&trans  &trans      &kp RA(NON_US_BSLH)   &kp RA(NUMBER_2)  &kp LS(N7)     &kp LS(N5)    &kp LS(NUMBER_6)  &kp RA(MINUS)  &kp RA(RIGHT_BRACKET)  &kp LS(NUMBER_4)       &kp DEL        &trans
-                                          &trans            &trans         &trans        &trans            &trans         &trans
+&trans  &kp ESCAPE  &kp NON_US_BACKSLASH  &kp LS(NUMBER_8)  &kp RA(N7)     &kp RA(N8)           &kp RA(N9)        &kp RA(N0)     &kp LS(N9)             &kp LS(NON_US_BSLH)    &trans         &trans
+&trans  &kp MINUS   &kp LS(N0)            &kp LS(NUMBER_1)  &kp LS(MINUS)  &kp LS(BACKSLASH)    &kp NON_US_HASH   &kp EQUAL      &kp LS(N2)             &kp LS(RIGHT_BRACKET)  &kp LS(SLASH)  &trans
+&trans  &trans      &kp RA(NON_US_BSLH)   &kp RA(NUMBER_2)  &kp LS(N7)     &kp LS(N5)           &kp LS(NUMBER_6)  &kp RA(MINUS)  &kp RA(RIGHT_BRACKET)  &kp LS(NUMBER_4)       &kp DEL        &trans
+                                          &trans            &trans         &trans               &trans            &trans         &trans
             >;
         };
 
